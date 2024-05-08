@@ -1,0 +1,26 @@
+.sketch-div {
+  border-width: 0.1px;
+  border-color: rgba(0, 0, 0, 0.1);
+  border-style: solid;
+  box-sizing: border-box;
+}
+
+.sketch-grid {
+  display: flex;
+  flex-wrap: wrap;
+  height: 500px;
+  width: 500px;
+}
+
+.sketch-wrapper {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.is-active {
+  background-color: rgb(0, 0, 0);
+  opacity: 0.1;
+}
